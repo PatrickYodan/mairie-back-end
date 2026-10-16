@@ -1,0 +1,14 @@
+# Secrets et données locales — ne jamais publier
+.env
+*.sqlite3
+mairie/media/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+*.log
